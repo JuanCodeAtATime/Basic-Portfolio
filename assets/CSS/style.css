@@ -1,0 +1,167 @@
+body {
+    background-image: url(../superhornets.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #000;
+    font-family: 'Special Elite', cursive;
+    width: 960px;
+
+}
+.content {
+    background-color: #ffffff;
+    border: #dddddd;
+
+  }
+
+header {
+    background: #ffffff;
+    text-align: center;
+    position: fixed;
+    border-color: #333;
+    width: 100%;
+    z-index: 999;  
+    font-family: 'Special Elite', cursive;
+}
+
+div {
+    width: 960px;
+    border: 15px black;
+    padding: 50px;
+    margin: 20px; 
+}
+
+.myName {
+    margin: 0%;
+    padding: 20px;
+    color: #777777;
+
+}
+.nav-toggle {
+    display: none;
+}
+.nav-toggle-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left:  1em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+    display: block;
+    background: #777777;
+    height: 2px;
+    width: 2em;
+    border-radius: 2px;
+    position: relative;
+}
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+    content: '';
+    position: absolute;
+}
+.nav-toggle-label span::before {
+    bottom: 7px;
+}
+
+.nav-toggle-label span::after {
+    top: 7px;
+}
+
+nav  {
+ position: absolute;
+ text-align: left;
+ top: 100%;
+ left: 0;
+ background: var(--background);
+ width: 100%;
+ transform: scale(1, 0);
+ transform-origin: top;
+ transition: transform 400ms ease-in-out;
+ font-family: 'Spectral', serif;
+ }
+
+nav ul  {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+
+nav a {
+    color: #777777;
+    text-decoration: none;
+    font-size: .8rem;
+    text-transform: uppercase;
+    opacity: 0;
+    transition: opacity 150ms ease-in-out;
+    }
+    
+nav a:hover {
+    color: #000;
+}
+
+.nav-toggle:checked ~ nav {
+    transform: scale(1, 1);
+    }
+  
+.nav-toggle:checked ~ nav a {
+        opacity: 1;
+        transition: opacity 250ms ease-in-out 250ms;
+        }
+
+@media screen and (min-width: 800px) {
+    .nav-toggle-label {
+        display: none;
+  }
+header {
+    display: grid;
+    grid-template-columns: 147.6px 321.6px 638.4px 147.6px;
+}
+.myName {
+    grid-column: 2 / 4;
+    width: 321.6px;
+}
+nav {
+    all: unset;
+    grid-column: 3 / 4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Spectral', serif;
+}
+nav a {
+    opacity: 1;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    border: 1px salmon;
+}
+
+nav li {
+    margin-bottom: 0;
+    margin-left: 3em;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background: black;
+    position: absolute;
+    top: -.75em;
+    left: 0;
+    right: 0;
+
+}
+}
