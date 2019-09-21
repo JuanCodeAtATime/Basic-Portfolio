@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Cute+Font|Special+Elite|Spectral&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Juan's Portfolio</title>
+    <title>Contact Juan</title>
 </head>
 
 <body>
@@ -28,10 +28,22 @@
 
 <section>
  <div class="container">
-       <h1>Contact</h1>
-       <hr>
+    <h1>Contact</h1>
+    <hr>
+        <form>
+        Name:<br>
+        <input type="text" name="wholeName" class="input-field" placeholder="Enter Your Name"><br>
+        
+        Email:<br>
+        <input type="email" name="email" class="input-field" required placeholder="Enter your email"
+         pattern="[a-zA-Z]{3,}@[a-zA-Z]{3,}[.]{1}[a-zA-Z{2,}" title="Please enter a valid email address."><br>
+        
+        Message:<br>
+        <textarea name="txtarea" cols="50" rows="10"></textarea><br>
 
-              
+        <input type="button" value="Submit">
+        </form>
+                    
  </div>
 </section>
 
