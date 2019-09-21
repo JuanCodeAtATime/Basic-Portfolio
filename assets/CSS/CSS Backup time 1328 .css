@@ -140,15 +140,6 @@ input[type=button]:hover {
     transition: .9s;
 }
 
-.banner {
-    background-color: #4aaaa5;
-    background-size: 125px;
-    color: white;
-    text-shadow: #666666;
-    text-align: center;
-       
-}
-
 .box1 {
     width: 125px;
     height: 100px;
@@ -172,7 +163,6 @@ input[type=button]:hover {
     background-image: url(../img2.png);
     background-size: 100% 100%;
 }
-
 .box3 {
     width: 125px;
     height: 100px;
@@ -281,7 +271,8 @@ nav  {
  text-align: left;
  top: 100%;
  left: 0;
- width: 50%;
+ background: var(--background);
+ width: 100%;
  transform: scale(1, 0);
  transform-origin: top;
  transition: transform 400ms ease-in-out;
@@ -334,7 +325,7 @@ footer {
     text-align: center;
     margin-top: auto;
     width: 100%;
-    border-top: 5px solid teal;    
+    border-top: teal;    
     z-index: 999;
 }
 
