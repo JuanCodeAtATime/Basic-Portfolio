@@ -165,6 +165,12 @@ a {
     cursor: pointer;
 }
 
+a#index {
+    color: teal;
+    text-decoration-line: none;
+    cursor: pointer;
+}
+
 .box1 {
     width: 125px;
     height: 100px;
@@ -229,6 +235,28 @@ a {
     background-image: url(../img5.jpg);
     background-size: 100% 100%;
 }
+.crystals {
+    width: 125px;
+    height: 100px;
+    border-width: 2px;
+    background-color: #4aaaa5;
+    float: left;
+    cursor: pointer;
+    background-image: url(../crystalsGame.PNG);
+    background-size: 100% 100%;
+}
+
+.more {
+    width: 125px;
+    height: 100px;
+    border-width: 2px;
+    background-color: #4aaaa5;
+    float: left;
+    cursor: pointer;
+    background-image: url(../more.png);
+    background-size: 100% 100%;
+}
+
 
 .clearfix::after {
     content: "";
