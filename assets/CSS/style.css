@@ -171,102 +171,32 @@ a#index {
     cursor: pointer;
 }
 
-.box1 {
-    width: 125px;
-    height: 100px;
-    border-width: 2px;
-    background-color: #4aaaa5;
-    float: left;
-    cursor: pointer;
-    background-image: url(../img5.jpg);
-    background-size: 100% 100%;
-    font: #ffffff;
-}
-
-.box2 {
-    width: 125px;
-    height: 100px;
-    border-width: 2px;
-    font: #ffffff;
-    background-color: #4aaaa5;
-    float: left;
-    cursor: pointer;
-    background-image: url(../img2.png);
-    background-size: 100% 100%;
-}
-
-.box3 {
-    width: 125px;
-    height: 100px;
-    border-width: 2px;
-    background-color: #4aaaa5;
-    float: left;
-    cursor: pointer;
-    background-image: url(../img4.png);
-    background-size: 100% 100%;
-}
-.box4 {
-    width: 125px;
-    height: 100px;
-    border-width: 2px;
-    background-color: #4aaaa5;
-    float: left;
-    cursor: pointer;
-    background-image: url(../img1.jpeg);
-    background-size: 100% 100%;
-}
-.box5 {
-    width: 125px;
-    height: 100px;
-    border-width: 2px;
-    background-color: #4aaaa5;
-    float: left;
-    cursor: pointer;
-    background-image: url(../img3.png);
-    background-size: 100% 100%;
-}
-.box6 {
-    width: 125px;
-    height: 100px;
-    border-width: 2px;
-    background-color: #4aaaa5;
-    float: left;
-    cursor: pointer;
-    background-image: url(../img5.jpg);
-    background-size: 100% 100%;
-}
-.crystals {
-    width: 125px;
-    height: 100px;
-    border-width: 2px;
-    background-color: #4aaaa5;
-    float: left;
-    cursor: pointer;
+#box1 {
     background-image: url(../crystalsGame.PNG);
-    background-size: 100% 100%;
 }
 
-.more {
-    width: 125px;
-    height: 100px;
-    border-width: 2px;
-    background-color: #4aaaa5;
-    float: left;
-    cursor: pointer;
-    background-image: url(../more.png);
-    background-size: 100% 100%;
-}
-
-.more1  {
-    width: 125px;
-    height: 100px;
-    border-width: 2px;
-    background-color: #4aaaa5;
-    float: left;
-    cursor: pointer;
+#box2 {
+   
     background-image: url(../nutrTrivia.png);
-    background-size: 100% 100%;
+}
 
+#box3 {
+    background-image: url(../geoGiphy.PNG);
+}
+
+#box4, #box5, #box6 {
+
+    background-image: url(../more.png);
+}
+
+.img {
+    width: 125px;
+    height: 100px;
+    border-width: 2px;
+    background-color: #4aaaa5;
+    float: left;
+    cursor: pointer;
+    background-size: 100% 100%;
 }
 
 
